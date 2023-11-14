@@ -23,8 +23,7 @@ const SocialLinks = () => {
                     Github <FaGithub size={30}/>
                 </>
             ),
-            href: 'https://github.com/Aded-oyin',
-            style: 'bg-slate-600'
+            href: 'https://github.com/Aded-oyin'
         },
         {
             id: 3,
@@ -43,14 +42,14 @@ const SocialLinks = () => {
                 </>
             ),
             href: '/daniel.docx',
-            style: 'rounded-br-md bg-slate-600',
+            style: 'rounded-br-md',
             download: true,
         }
 
     ]
 
   return (
-    <div className='lg:flex flex-col top-[35%] left-0 fixed'>
+    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
         <ul>
 
             {links.map(({id, child, href, style, download}) =>(
