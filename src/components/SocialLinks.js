@@ -14,7 +14,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://www.linkedin.com/in/daniel-ayodele-a39849250/',
-            style: 'rounded-tr-md bg-black'
+            style: 'rounded-tr-md bg-slate-800'
         },
         {
             id: 2,
@@ -24,7 +24,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://github.com/Aded-oyin',
-            style: 'bg-slate-700'
+            style: 'bg-slate-500'
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'mailto:danyodele50@gmail.com',
-            style: 'bg-black'
+            style: 'bg-slate-800'
         },
         {
             id: 4,
@@ -44,7 +44,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: '/daniel.docx',
-            style: 'rounded-br-md bg-slate-700',
+            style: 'rounded-br-md bg-slate-500',
             download: true,
         }
 
