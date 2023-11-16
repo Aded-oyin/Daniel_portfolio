@@ -14,7 +14,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://www.linkedin.com/in/daniel-ayodele-a39849250/',
-            style: 'rounded-tr-md'
+            style: 'rounded-tr-md bg-black'
         },
         {
             id: 2,
@@ -24,7 +24,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'https://github.com/Aded-oyin',
-            style: 'bg-slate-500'
+            style: 'bg-slate-700'
         },
         {
             id: 3,
@@ -34,6 +34,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'mailto:danyodele50@gmail.com',
+            style: 'bg-black'
         },
         {
             id: 4,
@@ -43,7 +44,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: '/daniel.docx',
-            style: 'rounded-br-md bg-slate-500',
+            style: 'rounded-br-md bg-slate-700',
             download: true,
         }
 
@@ -55,7 +56,7 @@ const SocialLinks = () => {
 
             {links.map(({id, child, href, style, download}) =>(
                 <li key={id}
-                    className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] cursor-pointer hover:ml-[-10px] hover:rounded-md duration-300 bg-slate-800' + ' ' +
+                    className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] cursor-pointer hover:ml-[-10px] hover:rounded-md duration-300' + ' ' +
                     style 
                     }>
                     <a href={href}
