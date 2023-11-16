@@ -23,7 +23,8 @@ const SocialLinks = () => {
                     Github <FaGithub size={30}/>
                 </>
             ),
-            href: 'https://github.com/Aded-oyin'
+            href: 'https://github.com/Aded-oyin',
+            style: 'bg-slate-500'
         },
         {
             id: 3,
@@ -42,7 +43,7 @@ const SocialLinks = () => {
                 </>
             ),
             href: '/daniel.docx',
-            style: 'rounded-br-md',
+            style: 'rounded-br-md bg-slate-500',
             download: true,
         }
 
