@@ -1,5 +1,5 @@
 import React from 'react'
-import airbnb from '../assets/portfolio/airbnb.jpg'
+import edibles from '../assets/portfolio/edibles.jpg'
 import data from '../assets/portfolio/data.jpg'
 import furniture from '../assets/portfolio/Furniture.jpg'
 import roar from '../assets/portfolio/Roar-bikes.jpg'
@@ -21,9 +21,9 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: airbnb,
-            href:'https://airbnb-first-dyviw.vercel.app/',
-            code:'https://github.com/Aded-oyin/airbnb-first/tree/main'
+            src: edibles,
+            href:'https://edibles-app.vercel.app/',
+            code:'https://github.com/Aded-oyin/Edibles-app'
         },
         {
             id: 4,
