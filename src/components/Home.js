@@ -6,6 +6,47 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Home = () => {
+  
+  const links = [
+    {
+      id: 1,
+      child:(
+        <>
+          <FaLinkedin size={30}/>
+        </>
+      ),
+      href: 'https://www.linkedin.com/in/daniel-ayodele-a39849250/'
+    },
+    {
+      id: 2,
+      child:(
+          <>
+            <FaGithub size={30}/>
+          </>
+      ),
+      href: 'https://github.com/Aded-oyin',
+    },
+    {
+      id: 3,
+      child:(
+          <>
+            <HiOutlineMail size={30}/>
+          </>
+      ),
+      href: 'mailto:danyodele50@gmail.com',
+    },
+    {
+      id: 4,
+      child:(
+          <>
+            <BsFillPersonLinesFill size={30}/>
+          </>
+      ),
+      href: '/daniel.docx',
+      download: true,
+    }
+  ]
+
   return (
     <div name="home" className='w-full h-screen bg-gradient-to-b from-[#0a192f] via-[#0a192f] to-slate-800'>
 
@@ -26,12 +67,22 @@ const Home = () => {
                 </Link>
             </div>
 
-            <div className='lg:hidden text-4xl flex justify-center gap-10 py-3 text-gray-600'>
-              <FaLinkedin/>
-              <FaGithub/>
-              <HiOutlineMail/>
-              <BsFillPersonLinesFill/>
-            </div>
+            <ul className='lg:hidden flex justify-center'>
+              {links.map(({id, child, href, download}) =>(
+                <li
+                key={id}
+                className='text-4xl px-4 flex gap-10 py-3 text-gray-600'
+                >
+                <a href={href}
+                      download={download}
+                      target='_blank'
+                      rel='noreferrer'
+                      >
+                          {child}
+                </a>  
+                </li>
+              ))}
+            </ul>
 
         </div>
 
