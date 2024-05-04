@@ -1,7 +1,7 @@
 import React from 'react'
 import edibles from '../assets/portfolio/edibles.jpg'
 import data from '../assets/portfolio/data.jpg'
-import furniture from '../assets/portfolio/Furniture.jpg'
+import netflix from '../assets/portfolio/netflix.jpg'
 import roar from '../assets/portfolio/Roar-bikes.jpg'
 
 const Portfolio = () => {
@@ -9,15 +9,15 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: furniture,
-            href: 'https://aded-oyin.github.io/durable-furnitures/',
-            code: 'https://github.com/Aded-oyin/durable-furnitures'
-        },
-        {
-            id: 2,
             src: roar,
             href: 'https://aded-oyin.github.io/Roarbikes/',
             code: 'https://github.com/Aded-oyin/Roarbikes'
+        },
+        {
+            id: 2,
+            src: netflix,
+            href: 'https://react-netflix-rho.vercel.app/',
+            code: 'https://github.com/Aded-oyin/React-Netflix'
         },
         {
             id: 3,
